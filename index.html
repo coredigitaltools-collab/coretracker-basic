@@ -647,9 +647,8 @@ function getStockSummary(){
     const bought=inv.filter(i=>i.name===name).reduce((s,i)=>s+(+i.qty||0),0);
     const sold=sales.filter(s=>s.product===name).reduce((s,r)=>s+(+r.qtySold||0),0);
     const current=bought-sold;
-    const last=inv.filter(i=>i.name===name&&+i.sellingPrice>0).slice(-1)[0];
-    return{name,bought,sold,current,stockValue:current*(last?+last.sellingPrice:0),sellingPrice:last?+last.sellingPrice:0};
-  });
+    const last=inv.filter(i=>i.name===name&&+i.buyingPrice>0).slice(-1)[0];
+   stockValue:current*(last?+last.buyingPrice:0)
 }
 function getBuyingPrice(productName){
   // Get the most recent buying price for a product from inventory
