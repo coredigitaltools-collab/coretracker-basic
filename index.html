@@ -1214,7 +1214,7 @@ function renderStock(){
   return`
   <div class="stats-grid" style="margin-bottom:14px">
     <div class="stat"><div class="stat-label">Total Stock</div><div class="stat-value" style="color:var(--accent)">${fmtN(totalStock)}</div><div class="stat-sub">units remaining</div></div>
-    ${isOwner()?`<div class="stat"><div class="stat-label">Stock Value</div><div class="stat-value" style="color:var(--accent4)">${fmt(totalVal)}</div><div class="stat-sub">at selling price</div></div>`:''}
+    ${isOwner()?`<div class="stat"><div class="stat-label">Stock Value</div><div class="stat-value" style="color:var(--accent4)">${fmt(totalVal)}</div><div class="stat-sub">at buying price</div></div>`:''}
     <div class="stat"><div class="stat-label">Low Stock</div><div class="stat-value" style="color:var(--accent4)">${low}</div><div class="stat-sub">≤5 units</div></div>
     <div class="stat"><div class="stat-label">Out of Stock</div><div class="stat-value" style="color:var(--danger)">${out}</div><div class="stat-sub">need restocking</div></div>
   </div>
