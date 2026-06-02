@@ -1256,7 +1256,7 @@ function renderMonthly(){
     <div class="stat"><div class="stat-label">Net Profit</div><div class="stat-value ${m.profit>=0?'profit-pos':'profit-neg'}">${fmt(m.profit)}</div><div class="stat-sub">${m.profit>=0?'Profitable':'Loss'}</div></div>
     <div class="stat"><div class="stat-label">Units Sold</div><div class="stat-value" style="color:var(--accent)">${fmtN(m.unitsSold)}</div><div class="stat-sub">&nbsp;</div></div>
     <div class="stat"><div class="stat-label">Current Stock</div><div class="stat-value" style="color:var(--accent4)">${fmtN(m.currentStock)}</div><div class="stat-sub">units</div></div>
-    <div class="stat"><div class="stat-label">Stock Value</div><div class="stat-value" style="color:var(--accent4)">${fmt(m.stockValue)}</div><div class="stat-sub">at selling price</div></div>
+    <div class="stat"><div class="stat-label">Stock Value</div><div class="stat-value" style="color:var(--accent4)">${fmt(m.stockValue)}</div><div class="stat-sub">at buying price</div></div>
   </div>
   <div class="sum-grid">
     <div class="sum-block"><div class="sum-block-title">Sales by Product</div>${prodRows}<div class="sum-row" style="margin-top:6px"><span>Total</span><span class="profit-pos">${fmt(m.totalSales)}</span></div></div>
