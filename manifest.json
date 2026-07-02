@@ -1,0 +1,83 @@
+{
+  "id": "com.traxxo.businessmanager",
+  "name": "TRAXXO",
+  "short_name": "TRAXXO",
+  "description": "TRAXXO is a business management PWA for tracking inventory, sales, stock, and monthly summaries — built for small businesses.",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "start_url": "https://coredigitaltools-collab.github.io/coretracker-basic/",
+  "scope": "https://coredigitaltools-collab.github.io/coretracker-basic/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "business",
+    "productivity",
+    "finance"
+  ],
+  "icons": [
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/screenshot-1.png",
+      "sizes": "1280x800",
+      "form_factor": "wide",
+      "label": "TRAXXO Dashboard"
+    },
+    {
+      "src": "https://coredigitaltools-collab.github.io/coretracker-basic/screenshot-2.png",
+      "sizes": "390x844",
+      "form_factor": "narrow",
+      "label": "TRAXXO on Mobile"
+    }
+  ]
+}
