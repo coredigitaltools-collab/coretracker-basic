@@ -1,4 +1,4 @@
-const C = 'traxxo-v5';
+const C = 'traxxo-v6';
 
 const ASSETS = [
   './',
